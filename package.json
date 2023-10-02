@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register '**/*.test.js'",
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register '*.test.js'",
     "jest-test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' jest"
   },
   "devDependencies": {
