@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register '**/*.test.ts'"
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register '**/*.test.js'",
+    "jest-test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' jest"
   },
   "devDependencies": {
     "@types/chai": "^4.3.5",
@@ -9,6 +10,7 @@
   },
   "dependencies": {
     "chai": "^4.3.7",
+    "jest": "^29.7.0",
     "mocha": "^10.2.0",
     "prettier": "^3.0.0",
     "ts-node": "^10.9.1"
